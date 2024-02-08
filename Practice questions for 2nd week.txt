@@ -1,0 +1,50 @@
+Practice questions for this week
+1. Write a program to find maximum between two given numbers. 
+2.Write a program to check whether given no is even or odd. 
+3. Write a program to find maximum between three numbers. 
+4. Write a program to check whether a number is negative positive or zero. 
+5. Write a program to print days of a week using switch case. 
+6. Write a program to find maximum between two numbers using switch case. 
+7. Write a program to check whether a number is negative positive or zero using switch case.
+
+
+
+String Reversal: (optional for time begin....)
+
+Create a function named reverseString that takes a string as input and returns its reversed version.
+Display the reversed version of myString using the reverseString function.
+String Splitting and Joining:
+
+Declare a variable named sentence and assign it a string containing multiple words.
+Use the split method to convert the sentence into an array of words.
+Use the join method to join the array of words back into a string with hyphens ("-") between each word.
+Display the resulting string.
+String Searching and Counting:
+
+Declare a variable named longText and assign it a long string that includes repeated occurrences of a specific word.
+Use the indexOf method to find the first occurrence of the word.
+Use a loop and indexOf to count and display the total number of occurrences of the word in the longText.
+String Regular Expression:
+
+Declare a variable named email and assign it an email address (e.g., "user@example.com").
+Use a regular expression and the test method to check if the email address is valid.
+Display a message indicating whether the email address is valid or not.
+String Character Iteration:
+
+Create a function named countVowels that takes a string as input and returns the count of vowels (both uppercase and lowercase) in the string.
+Display the count of vowels in myString using the countVowels function.
+String Formatting:
+
+Declare variables for a person's first name, last name, and age.
+Use string template literals to create a sentence introducing the person, incorporating their name and age.
+Display the formatted sentence.
+String Padding:
+
+Declare a variable named numberString and assign it a number converted to a string (e.g., "42").
+Use the padStart method to add leading zeros to make the string at least 5 characters long.
+Display the padded string.
+String Comparison:
+
+Declare two strings that represent version numbers (e.g., "1.2.3" and "1.2.10").
+Write a function named compareVersions that compares these version strings and displays which one is greater.
+Use the localeCompare method for version comparison.
