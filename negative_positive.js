@@ -4,17 +4,17 @@ let x = 5;
 
 let y = Math.sign(x);
 
-if(x % 2 < 0)
+if(x < 0)
 {
     console.log("Number is negative");
 }
-else if(x % 2 == 0)
+else if(x > 0)
 {
     console.log("Number is Zero");
 }
 else
 {
-    console.log("Number is positive");
+    console.log("Number is zero");
 }
 
 if(y == 0)
