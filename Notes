@@ -1,0 +1,13 @@
+## Var is function scope variable (Must try), Let is block scope variable and const can't re intialize and reassign
+# try and catch to use debugging the error 
+try 
+{
+    Code here
+}
+
+catch(e)
+{
+    console.log(e.message);
+}
+
+## Node.js is haveing 2 mail things is V8 engine and C++ (C++ can read the file systems but browser can't So that we can use the Node.js as backend work)
