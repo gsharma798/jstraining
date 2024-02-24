@@ -6,8 +6,8 @@ switch (x) {
   case x < 8:
     console.log("Sunday");
     break;
-  case 1:
-    console.log(x);
+  case x < 7:
+    console.log("Monday");
     break;
   default:
     text = "No value found";

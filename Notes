@@ -1,4 +1,7 @@
-## Var is function scope variable (Must try), Let is block scope variable and const can't re intialize and reassign
+## JS is object by refernce 
+
+## Var is function scope variable (Must try), Let is block scope variable and const can't be re-intialize and re-assign
+
 # try and catch to use debugging the error 
 try 
 {
@@ -10,4 +13,29 @@ catch(e)
     console.log(e.message);
 }
 
-## Node.js is haveing 2 mail things is V8 engine and C++ (C++ can read the file systems but browser can't So that we can use the Node.js as backend work)
+## Node.js is haveing 2 main things is V8 engine and C++ (C++ can read the file systems but browser can't So that we can use the Node.js as backend work)
+
+## console.log() always return undefined
+
+## Null is intentionally undefined
+
+## Functions can be declared with two ways in js one is ES5 format and second is ES6 format. Pls refer to functions.js for more clarity
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
