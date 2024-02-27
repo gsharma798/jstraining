@@ -61,5 +61,5 @@ function palindrome(input_value)
     }
     
 }
-let result = palindrome("nan");
+let result = palindrome("madam");
 console.log(result);
