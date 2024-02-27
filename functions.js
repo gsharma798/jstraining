@@ -17,5 +17,6 @@ const si = (paramater1, parameter2, parameter3,) => { // function deceleration w
     //return statement
 }
 
-const result = (70, 87, 87); // argument pass
+const result = si(70, 87, 87); // argument pass
 console.log(result);
+
