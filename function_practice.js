@@ -45,6 +45,7 @@
 function palindrome(input_value)
 {
     let pali = input_value.split("").reverse().join();
+    pali = pali.split();
     console.log(pali);
     console.log(typeof pali);
     input_value = input_value.split("");

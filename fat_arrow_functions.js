@@ -1,6 +1,6 @@
-let zhandu = (nalla) => {
-    return nalla;
+let indi = (ab) => {
+    return ab;
 }
 
-let faltu = zhandu("Thullu");
-console.log(faltu);
+let faltu = indi("Sohail");
+console.log(ab);
