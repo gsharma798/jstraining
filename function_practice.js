@@ -112,12 +112,21 @@
 // console.log(result);
 
 
-// ###### Q6. Write a function to to use rest operator ######
+// ###### Q6. Write a function to to use rest operator ###### 
 
-function Rest_opt(...rest)
+// function Rest_opt(...rest)
+// {
+//     return rest * rest;
+// }
+
+// var res = Rest_opt(23, 23, 32, 89, 89, 89);
+// console.log(res);
+
+// ### Doubt the above question ###
 {
-    return rest * rest;
+x = 23;
+console.log(x);
+var x;
 }
 
-var res = Rest_opt(23, 23, 32, 89, 89, 89);
-console.log(res);
+
