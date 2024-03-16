@@ -177,22 +177,30 @@ var data = [2, 5, 6, 23, 34, 54]
 
 // 3. **Find the employee(s) who have been working for the company for more than 2 years.
 
-// var givenDate = "2022-02-28";
+var currentDdate = new Date();
+  
+var currentDay = currentDdate.getDate();
+//console.log(currentDay);
+var currentMonth = currentDdate.getMonth() + 1;
+//console.log(currentMonth);
+var currentYear = currentDdate.getFullYear();
+//console.log(currentYear);
 
-// var arrDate1 = givenDate.split(' ');
-// var arrDate2 = arrDate1[1].split(',');
+for(let index = 0; index < employees_data.length; index++)
+{
+  let actualDate = employees_data[index].joining_date.split('-');
 
-// console.log('date: ', arrDate1[0]);
-// console.log('month: ', arrDate2[0]);
-// console.log('year: ', arrDate2[1]);
-
-
-
-// for(let index = 0; index < employees_data.length; index++)
-// {
-//   console.log(employees_data[index].joining_date.getFullYear);
-// }
-
+  let empJoiningDay = parseInt(actualDate[2]);
+  //console.log(empJoiningDay);
+  let empJoiningMonth = parseInt(actualDate[1]);
+  //console.log(empJoiningMonth);
+  let empJoiningYear = parseInt(actualDate[0]);
+  //console.log(empJoiningYear);
+  if(empJoiningDay > 730)
+  {
+    console.log(actualDate);
+  }
+}
 
 // 10. **Find the employee(s) who have not been assigned to any department yet.
 
@@ -207,11 +215,11 @@ var data = [2, 5, 6, 23, 34, 54]
 
 // 9. **Find the employee(s) who work as Quality Assurance Analysts and have a salary greater than 1300.
 
-for(let index = 0; index < employees_data.length; index++)
-{
-  if(employees_data[index].designation == "Quality Assurance Analyst" && employees_data[index].salary > 1300)
-  {
-    console.table(employees_data[index]);
-  }  
-}
+// for(let index = 0; index < employees_data.length; index++)
+// {
+//   if(employees_data[index].designation == "Quality Assurance Analyst" && employees_data[index].salary > 1300)
+//   {
+//     console.table(employees_data[index]);
+//   }  
+// }
 
